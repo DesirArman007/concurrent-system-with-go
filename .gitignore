@@ -1,0 +1,22 @@
+# Go build output
+/bin/
+/dist/
+*.exe
+*.test
+*.out
+
+# Test and coverage artifacts
+coverage.out
+coverage.html
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+

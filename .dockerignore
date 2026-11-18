@@ -1,0 +1,22 @@
+# Git metadata
+.git/
+.gitignore
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Build and test artifacts
+bin/
+dist/
+*.exe
+*.test
+*.out
+coverage.html
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
